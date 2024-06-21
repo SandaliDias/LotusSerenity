@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LabExam_03</string>
+    <string name="Play_String">Play</string>
+    <string name="LotusSerenity_String">Lotus Serenity</string>
+    <string name="Start_String">Start</string>
+    <string name="Home_String">Home</string>
+    <string name="Current_Score_String">Current Score: 0</string>
+    <string name="High_Score_String">High Score: 0</string>
+    <string name="score_template">Score: %d</string>
+</resources>

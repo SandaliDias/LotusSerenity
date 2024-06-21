@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_over_background">
+
+    <TextView
+        android:id="@+id/currentScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180sp"
+        android:text="@string/Current_Score_String"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/highScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentScoreTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/High_Score_String"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_below="@id/highScoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/play_gradient"
+        android:text="@string/Start_String"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_below="@id/play_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/play_gradient"
+        android:text="@string/Home_String"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+</RelativeLayout>
